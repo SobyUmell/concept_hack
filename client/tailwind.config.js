@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         'brains': ['JetBrains Mono', 'monospace'],
+        'comfort': ['Comfortaa']
       },
       boxShadow: {
         'base': '0px 0px 8px #d83f87',

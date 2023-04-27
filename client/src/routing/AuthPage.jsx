@@ -27,7 +27,7 @@ export default function AuthPage() {
   return (
     <div className="w-screen h-screen bg-dark flex justify-center items-center text-cloud font-brains">
       <div className="flex flex-col flex-initial space-y-[20px]">
-        <div className="text-pinky text-[60px] text-center">
+        <div className="text-pinky text-[60px] text-center font-comfort font-bold">
           Geek Up
         </div>
         <AuthForm />

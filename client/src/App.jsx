@@ -1,13 +1,16 @@
 
 import { Route, Routes } from 'react-router-dom'
 import AuthPage from './routing/AuthPage';
+import NotFound from './routing/NotFound'
+
+
 
 function App() {
   return (
-    <Routes>
+    <Routes >
+      <Route path='/' element={<div>Homepage template</div>} />
       <Route path='/auth' element={<AuthPage />} />
-      <Route path='/some' element={<div>something else</div>} />
-      <Route path='/somex2' element={<div>something else x2</div>} />
+      <Route path='*' element={<NotFound />} />
     </Routes>
   )
 }

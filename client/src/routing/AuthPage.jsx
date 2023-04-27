@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function AuthForm() {
   return (
@@ -30,7 +31,7 @@ export default function AuthPage() {
           Geek Up
         </div>
         <AuthForm />
-        <div className="text-center">Нет аккаунта? <span className="text-[17px] font-bold text-pinky hover:underline">Зарегистрироваться</span></div>
+        <div className="text-center">Нет аккаунта? <Link to='/signup' className="text-[17px] font-bold text-pinky hover:underline">Зарегистрироваться</Link></div>
 
       </div>
     </div>

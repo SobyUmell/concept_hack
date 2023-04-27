@@ -18,7 +18,7 @@ module.exports = {
         'comfort': ['Comfortaa']
       },
       boxShadow: {
-        'base': '0px 0px 8px #d83f87',
+        'base': '0px 0px 20px #d83f87',
       }
     },
   },

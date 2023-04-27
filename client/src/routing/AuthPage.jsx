@@ -1,7 +1,7 @@
 
 function AuthForm() {
   return (
-    <form className="shadow-base bg-viol w-[345px] h-[321px] rounded-[20px] p-5 border border-cloud flex-col items-center space-y-4">
+    <form className="shadow-base bg-viol w-[345px] h-[281px] rounded-[20px] p-5 flex-col items-center space-y-4">
       <div className="w-full">
         <label for="first-name" className="block text-sm font-medium leading-6 ">Логин</label>
         <div className="mt-2">
@@ -16,8 +16,7 @@ function AuthForm() {
       </div>
 
       <div className="w-full pt-[20px] flex flex-col space-y-[10px]">
-        <button className="bg-pinky text-dark h-[35px] rounded-[14px] hover:bg-cloud hover:border-pinky transition duration-200 text-lg shadow-non-dark shadow-md">Войти</button>
-        <button className="bg-pinky text-dark h-[35px] rounded-[14px] hover:bg-cloud hover:border-pinky transition duration-200 text-lg shadow-non-dark shadow-md">Регистрация</button>
+        <button className="bg-dark text-cloud h-[35px] rounded-[14px] hover:bg-pinky hover:border-pinky hover:text-dark transition duration-200 text-lg shadow-non-dark shadow-md">Войти</button>
       </div>
     </form>
   )
@@ -31,6 +30,8 @@ export default function AuthPage() {
           Geek Up
         </div>
         <AuthForm />
+        <div className="text-center">Нет аккаунта? <span className="text-[17px] font-bold text-pinky hover:underline">Зарегистрироваться</span></div>
+
       </div>
     </div>
   )

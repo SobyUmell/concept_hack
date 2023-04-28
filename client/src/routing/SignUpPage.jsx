@@ -2,6 +2,7 @@
 import logo from '../assets/img/avatar.svg'
 import { Link } from 'react-router-dom'
 
+
 export default function SignUpPage() {
 
   return (
@@ -70,7 +71,7 @@ export default function SignUpPage() {
           <option>Database administrator</option>
         </select>
       </div>
-      <button className="w-[200px] mb-[140px] border border-cloud bg-dark text-cloud h-[35px] rounded-[14px] hover:bg-pinky hover:border-pinky hover:text-dark transition duration-200 text-lg shadow-gray-900 shadow-md">Сохранить</button>
+      <Link to='/choice' className="w-[200px] mb-[140px] border border-cloud bg-dark text-cloud h-[35px] rounded-[14px] hover:bg-pinky hover:border-pinky hover:text-dark transition duration-200 text-lg shadow-gray-900 shadow-md flex justify-center items-center">Сохранить</Link>
     </div>
   )
 }

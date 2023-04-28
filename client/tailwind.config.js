@@ -12,6 +12,7 @@ module.exports = {
         'rain': '#44318d',
         'viol': '#8265a74d',
         'cloud': '#a4b3b6',
+        'second': '#8265A7'
       },
       fontFamily: {
         'brains': ['JetBrains Mono', 'monospace'],
@@ -19,6 +20,15 @@ module.exports = {
       },
       boxShadow: {
         'base': '0px 0px 20px #d83f87',
+        'fir': '0px 0px 100px #44318d',
+        'sec': '0px 0px 100px #8265A7'
+      },
+      backgroundImage: {
+        'fir': "url('/src/assets/img/first.png')",
+        'sec': "url('/src/assets/img/second.png')",
+      },
+      backgroundPosition: {
+        'cent': 'center top 1rem'
       }
     },
   },

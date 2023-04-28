@@ -5,8 +5,8 @@ import 'dotenv/config'
 
 import {UserRouter, AuthRouter} from './routers/index.js'
 
-const MONGO_URL = process.env.MONGO_URL || ''
-const PORT = process.env.PORT || 5000
+const MONGO_URL = process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/TheFirstBase'
+const PORT = process.env.PORT || 3001
 
 const app = express()
 
